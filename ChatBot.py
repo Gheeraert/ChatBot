@@ -6,7 +6,7 @@ import speech_recognition as sr
 from openai import OpenAI
 
 # ==============================
-# Configuration client LM Studio
+# Configuration client LM Studio avec contrôle vocal
 # ==============================
 client = OpenAI(base_url="http://127.0.0.1:1234/v1", api_key="lm-studio")
 
