@@ -92,6 +92,7 @@ response = completion.choices[0].text
 
 ## 🛠️ Dépannage
 
+- **installer les librairies** : dans la console pip install OpenAI. pip install pyttsx3
 - **La fenêtre ne s’ouvre pas** : vérifiez que `fenetre.mainloop()` est bien appelé et que Tkinter est disponible.
 - **Pas de son** : assurez-vous que SAPI5 fonctionne (Windows), essayez un autre index de voix.
 - **Erreur connexion** : confirmez que LM Studio écoute bien sur `http://127.0.0.1:1234/v1` et que le modèle est chargé.
